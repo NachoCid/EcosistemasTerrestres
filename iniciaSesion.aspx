@@ -8,7 +8,14 @@
     <title></title>
     <style type="text/css">
         .auto-style1 {
-            width: 141px;
+            width: 181px;
+        }
+        .auto-style2 {
+            width: 181px;
+            height: 30px;
+        }
+        .auto-style3 {
+            height: 30px;
         }
     </style>
 </head>
@@ -17,14 +24,14 @@
 
     <form id="formSesion" runat="server">
         <div>
-            <table align="center" width="23%">
+            <table align="center" width="30%">
                 <tr>
-                    <td class="auto-style1"> <asp:Label ID="LblCorreo" for="TxtCorreo" runat="server" Text="Correo:"></asp:Label> </td>
-                    <td> <asp:TextBox ID="TxtCorreo" runat="server" Width="220px"></asp:TextBox> </td>
+                    <td class="auto-style2"> <asp:Label ID="LblCorreo" for="TxtCorreo" runat="server" Text="Correo:"></asp:Label> </td>
+                    <td class="auto-style3"> <asp:TextBox ID="TxtCorreo" runat="server" Width="312px"></asp:TextBox> </td>
                 </tr>
                 <tr>
                     <td class="auto-style1"> <asp:Label ID="LblContrasena" for="TxtContrasena" runat="server" Text="Contraseña:"> </asp:Label> </td>
-                    <td> <asp:TextBox ID="TxtContrasena" runat="server" type="password" Width="220px"></asp:TextBox> </td>
+                    <td> <asp:TextBox ID="TxtContrasena" runat="server" type="password" Width="311px"></asp:TextBox> </td>
                 </tr>
                 <tr>
                     <td class="auto-style1"> <br /> </td>
