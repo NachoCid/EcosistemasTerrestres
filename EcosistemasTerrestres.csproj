@@ -72,8 +72,13 @@
     <Content Include="index.aspx" />
     <Content Include="iniciaSesion.aspx" />
     <Content Include="recuperaContrasena.aspx" />
+    <Content Include="publicacion.aspx" />
+    <Content Include="denuncia.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Denuncia.cs" />
+    <Compile Include="Clases\Publicacion.cs" />
+    <Compile Include="Clases\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="creaUsuario.aspx.cs">
       <DependentUpon>creaUsuario.aspx</DependentUpon>
@@ -102,6 +107,20 @@
     </Compile>
     <Compile Include="recuperaContrasena.aspx.designer.cs">
       <DependentUpon>recuperaContrasena.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="publicacion.aspx.cs">
+      <DependentUpon>publicacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="publicacion.aspx.designer.cs">
+      <DependentUpon>publicacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="denuncia.aspx.cs">
+      <DependentUpon>denuncia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="denuncia.aspx.designer.cs">
+      <DependentUpon>denuncia.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
